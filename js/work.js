@@ -1,0 +1,112 @@
+$(document).ready(function () {
+
+   $('.intro-title').html('Hi, I&#39m Raisa Hidalgo');
+
+/* skills */
+  $('#sk01').html('Microsoft Dynamics 365');
+  $('#sk02').html('SQL');
+  $('#sk03').html('javascript');
+  $('#sk04').html('HTML/CSS');
+  $('#sk05').html('C#, C++');
+  $('#sk06').html('Visual Basic');
+
+/* Languages */
+$('#lang1').html('Ingles - Fluent');
+$('#lang2').html('Español - Native');
+
+/* About */
+ $('#about1').html('I am a self motivated, enthusiastic, flexible and responsible team player who will work hard and excel in any environment.');
+ $('#about2').html('I am able to form good relationships with my peers and staff. I am confident in dealing with individuals at all levels. My experience has taught me how to find the most efective ways to achieve any objective.');
+ 
+/* Education */
+$('#edu1').html('Master in Management of Science, Technology, Innovation and Scientific Policy - 2016');
+$('#edu2').html('Master in Senior Management (MBA) - 2011');
+$('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989');
+
+ /* Professional Experience */ 
+  $('#profesional-subtitle').html('Companies located in Santo Domingo, Dominican Republic');
+
+   var datos={
+     dph:{
+        nombre: 'Despachos Portuarios Hispaniola',
+        periodo: '2019 - Present',
+        cargo: 'Programming Analyst',
+        descripcion: 'Successfully developed information systems in Dynamics CRM 365 that eased:',
+        job1: 'Calculate the amount to be paid for delays incurred by the use of containers, chassis, gensets and other charges.',
+        job2: 'Generation of invoices, credit notes, payment receipts and refund checks',
+        job3: 'Daily closing and restart process',
+        job4: 'Automatic notifications',
+        job5: 'Customer account statements'
+      }
+    , tkl:{
+        nombre: 'TekNowLogic',
+        periodo: '2013 - 2019',
+        cargo: 'Tecnology Consultant',
+        descripcion: 'Responsible for the development of Applications, Integration, Consulting and Training.',
+        job1: 'Basic Commercial Management Project at company INAPA which allowed the updating of the database of customers, properties and collection rates for the automatic generation of billing in all provinces of the country.',
+        job2: 'Implementation and Development of multiple Customer Service Modules for the management of Requests and Complaints in the company Grupo Rica.',
+        job3: 'Adaptations to the Module of Insurance Policies for farmers in the company Agrodosa',
+        job4: 'Implementation and Developmentof the operations system under the Microsoft Dynamics CRM 365 platform for DPH.',
+       }
+    , unibe:{
+        nombre: 'University Iberoamericana (UNIBE)',
+        periodo: '2013 - Present:',
+        cargo: 'Professor',
+        descripcion: 'Certified Teacher in the UNIBE Educational Model.',
+        job1: 'Certified for the application of Teaching Methods and Techniques such as Collaborative Learning, Problem-Based Learning, Case Analysis, Virtual Classroom, Rubric Evaluation, Essay Evaluation.',
+        job2: 'Speaker since 2013 at the Innovative Classes Conference in the area of innovative classes.',
+        job3: 'Professor of the subjects Operating Systems, Computer Architecture, Management Information Systems and Programming Languages at various levels corresponding to the curricula of the Schools of Engineering in Information Technology and Communication and Civil Engineering.',
+       }
+    , dpworld:{
+        nombre: 'Dp World Caucedo',
+        periodo: '2004 - 2012',
+        cargo: 'IT Manager',
+        descripcion: 'Responsible for the management and operation of the technology department.',
+        job1: 'Responsible for preparing, proposing and updating the Strategic Technology Plan.',
+        job2: 'Responsible for the IT Budget, Performance Indicators (KPI), Contingency and Technology Continuity Plans, as well as the IT staff Training plan.',
+        job3: 'Manage the projects of implementation of the Systems for the Management of Operations, Administration, Finance and commercial of the company',
+        job4: 'Manage Technological Infrastructure Update projects',
+     }
+}
+ $('.resume-title1').html(datos.dph.nombre);
+ $('.resume-title2').html(datos.tkl.nombre);
+ $('.resume-title3').html(datos.unibe.nombre);
+ $('.resume-title4').html(datos.dpworld.nombre);
+
+ $('.resume-car1').html(datos.dph.cargo);
+ $('.resume-car2').html(datos.tkl.cargo);
+ $('.resume-car3').html(datos.unibe.cargo);
+ $('.resume-car4').html(datos.dpworld.cargo);
+
+ $('.resume-per1').html(datos.dph.periodo);
+ $('.resume-per2').html(datos.tkl.periodo);
+ $('.resume-per3').html(datos.unibe.periodo);
+ $('.resume-per4').html(datos.dpworld.periodo);
+
+ $('#resume-descri1').html(datos.dph.descripcion);
+ $('#resume-descri2').html(datos.tkl.descripcion); 
+ $('#resume-descri3').html(datos.unibe.descripcion);
+ $('#resume-descri4').html(datos.dpworld.descripcion);
+
+ $('#resume-jobd1').html(datos.dph.job1);
+ $('#resume-jobt1').html(datos.tkl.job1); 
+ $('#resume-jobu1').html(datos.unibe.job1);
+ $('#resume-jobw1').html(datos.dpworld.job1);
+
+ $('#resume-jobd2').html(datos.dph.job2);
+ $('#resume-jobt2').html(datos.tkl.job2); 
+ $('#resume-jobu2').html(datos.unibe.job2);
+ $('#resume-jobw2').html(datos.dpworld.job2);
+
+ $('#resume-jobd3').html(datos.dph.job3);
+ $('#resume-jobt3').html(datos.tkl.job3); 
+ $('#resume-jobu3').html(datos.unibe.job3);
+ $('#resume-jobw3').html(datos.dpworld.job3);
+
+ $('#resume-jobd4').html(datos.dph.job4);
+ $('#resume-jobt4').html(datos.tkl.job4); 
+ $('#resume-jobw4').html(datos.dpworld.job4);
+
+  $('#resume-jobd5').html(datos.dph.job5);
+
+});
