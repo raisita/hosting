@@ -31,19 +31,18 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         nombre: 'Despachos Portuarios Hispaniola',
         periodo: '2019 - Present',
         cargo: 'Programming Analyst',
-        descripcion: 'Successfully developed information systems in Dynamics CRM 365 that eased:',
+        descripcion: 'Successfully developed information systems in Dynamics CRM 365 that:',
         job1: 'Calculate the amount to be paid for delays incurred by the use of containers, chassis, gensets and other charges.',
-        job2: 'Generation of invoices, credit notes, payment receipts and refund checks',
-        job3: 'Daily closing and restart process',
-        job4: 'Automatic notifications',
-        job5: 'Customer account statements'
+        job2: 'Generate invoices, credit notes, payment receipts and refund checks',
+        job3: 'Streamline daily closing and restart processes',
+        job4: 'Generate automatic notifications and customer account statements',
       }
     , tkl:{
         nombre: 'TekNowLogic',
         periodo: '2013 - 2019',
         cargo: 'Tecnology Consultant',
-        descripcion: 'Responsible for the development of Applications, Integration, Consulting and Training.',
-        job1: 'Basic Commercial Management Project at company INAPA which allowed the updating of the database of customers, properties and collection rates for the automatic generation of billing in all provinces of the country.',
+        descripcion: 'Responsible for the development of applications, integration, consulting and training.',
+        job1: 'Developed software to update the customers, properties and collection rates databases to automate the billing generation at the company INAPA.',
         job2: 'Implementation and Development of multiple Customer Service Modules for the management of Requests and Complaints in the company Grupo Rica.',
         job3: 'Adaptations to the Module of Insurance Policies for farmers in the company Agrodosa',
         job4: 'Implementation and Developmentof the operations system under the Microsoft Dynamics CRM 365 platform for DPH.',
@@ -52,10 +51,10 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         nombre: 'University Iberoamericana (UNIBE)',
         periodo: '2013 - Present:',
         cargo: 'Professor',
-        descripcion: 'Certified Teacher in the UNIBE Educational Model.',
-        job1: 'Certified for the application of Teaching Methods and Techniques such as Collaborative Learning, Problem-Based Learning, Case Analysis, Virtual Classroom, Rubric Evaluation, Essay Evaluation.',
-        job2: 'Speaker since 2013 at the Innovative Classes Conference in the area of innovative classes.',
-        job3: 'Professor of the subjects Operating Systems, Computer Architecture, Management Information Systems and Programming Languages at various levels corresponding to the curricula of the Schools of Engineering in Information Technology and Communication and Civil Engineering.',
+        descripcion: 'Certified professor in the UNIBE Educational Model.',
+        job1: 'Certified for the application of Teaching Methods and Techniques such as: Collaborative Learning, Problem-Based Learning, Case Analysis, Virtual Classroom, Rubric Evaluation and Essay Evaluation.',
+        job2: 'Speaker since 2013 at the Innovative Classes Conference.',
+        job3: 'IT Professor of: operating systems, computer architecture, management information systems and programming languages corresponding to the curricula of the Schools of Engineering in Information Technology and Communication, and Civil Engineering.',
        }
     , dpworld:{
         nombre: 'Dp World Caucedo',
@@ -63,9 +62,9 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         cargo: 'IT Manager',
         descripcion: 'Responsible for the management and operation of the technology department.',
         job1: 'Responsible for preparing, proposing and updating the Strategic Technology Plan.',
-        job2: 'Responsible for the IT Budget, Performance Indicators (KPI), Contingency and Technology Continuity Plans, as well as the IT staff Training plan.',
-        job3: 'Manage the projects of implementation of the Systems for the Management of Operations, Administration, Finance and commercial of the company',
-        job4: 'Manage Technological Infrastructure Update projects',
+        job2: 'Responsible for the IT Budget, Performance Indicators (KPI), Contingency and Technology Continuity Plans, and the IT staff Training plan.',
+        job3: 'Responsible for the implementation of the management systems of operations, administration, finance and customer services for the company',
+        job4: 'Managed technological infrastructure update projects',
      }
 }
  $('.resume-title1').html(datos.dph.nombre);
@@ -107,6 +106,4 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
  $('#resume-jobt4').html(datos.tkl.job4); 
  $('#resume-jobw4').html(datos.dpworld.job4);
 
-  $('#resume-jobd5').html(datos.dph.job5);
-
-});
+ });
