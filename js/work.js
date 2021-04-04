@@ -53,7 +53,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         cargo: 'Professor',
         descripcion: 'Certified professor in the UNIBE Educational Model.',
         job1: 'Certified for the application of teaching methods and techniques such as: collaborative learning, problem-based learning, case analysis, virtual classroom, rubric evaluation and essay evaluation.',
-        job2: 'Speaker since 2013 at the Innovative Classes conference.',
+        job2: 'Speaker at UNIBE&#39s Innovative Classes Conference since 2013.',
         job3: 'Professor of operating systems, computer architecture, management information systems and programming languages corresponding to the curricula of the schools of Engineering in Information Technology and Communication, and Civil Engineering.',
        }
     , dpworld:{
