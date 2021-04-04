@@ -42,10 +42,10 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         periodo: '2013 - 2019',
         cargo: 'Tecnology Consultant',
         descripcion: 'Responsible for the development of applications, integration, consulting and training.',
-        job1: 'Developed software to update the customers, properties and collection rates databases to automate the billing generation at the company INAPA.',
-        job2: 'Implementation and Development of multiple Customer Service Modules for the management of Requests and Complaints in the company Grupo Rica.',
-        job3: 'Adaptations to the Module of Insurance Policies for farmers in the company Agrodosa',
-        job4: 'Implementation and Developmentof the operations system under the Microsoft Dynamics CRM 365 platform for DPH.',
+        job1: 'Developed software for the dominican national water company, INAPA. This software simplified updating the company’s database of customers, properties and collection rates. It also allowed for the automatic generation of invoices for every province in the country.',
+        job2: 'Implementation and development of multiple customer service modules for the company Grupo Rica.',
+        job3: 'Developed software for the insurance company Agrodosa related to the policies for farmers.',
+        job4: 'Implementation and Development of the operations system under the Microsoft Dynamics CRM 365 platform for DPH.',
        }
     , unibe:{
         nombre: 'University Iberoamericana (UNIBE)',
@@ -54,7 +54,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         descripcion: 'Certified professor in the UNIBE Educational Model.',
         job1: 'Certified for the application of Teaching Methods and Techniques such as: Collaborative Learning, Problem-Based Learning, Case Analysis, Virtual Classroom, Rubric Evaluation and Essay Evaluation.',
         job2: 'Speaker since 2013 at the Innovative Classes Conference.',
-        job3: 'IT Professor of: operating systems, computer architecture, management information systems and programming languages corresponding to the curricula of the Schools of Engineering in Information Technology and Communication, and Civil Engineering.',
+        job3: 'Professor of operating systems, computer architecture, management information systems and programming languages corresponding to the curricula of the schools of Engineering in Information Technology and Communication, and Civil Engineering.',
        }
     , dpworld:{
         nombre: 'Dp World Caucedo',
