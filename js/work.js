@@ -45,7 +45,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         job1: 'Developed software for the Dominican national water company, INAPA. This software simplified updating the company’s database of customers, properties and collection rates. It also allowed for the automatic generation of invoices for every province in the country.',
         job2: 'Developed and implemented multiple customer service modules for the company, Grupo Rica.',
         job3: 'Developed software related to the insurance policies of farmers for the insurance company, Agrodosa.',
-        job4: 'Developed and implemented the information system under the Microsoft Dynamics CRM 365 platform for DPH.',
+        job4: 'Developed and implemented the information system using the Microsoft Dynamics CRM 365 platform for DPH.',
        }
     , unibe:{
         nombre: 'University Iberoamericana (UNIBE)',
@@ -53,7 +53,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         cargo: 'Professor',
         descripcion: 'Certified professor in the UNIBE Educational Model.',
         job1: 'Certified for the application of teaching methods and techniques such as: collaborative learning, problem-based learning, case analysis, virtual classroom, rubric evaluation and essay evaluation.',
-        job2: 'Speaker since 2013 at the innovative classes conference.',
+        job2: 'Speaker since 2013 at the Innovative Classes conference.',
         job3: 'Professor of operating systems, computer architecture, management information systems and programming languages corresponding to the curricula of the schools of Engineering in Information Technology and Communication, and Civil Engineering.',
        }
     , dpworld:{
