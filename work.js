@@ -49,7 +49,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
        }
     , unibe:{
         nombre: 'University Iberoamericana (UNIBE)',
-        periodo: '2013 - Present:',
+        periodo: '2013 - Present',
         cargo: 'Professor',
         descripcion: 'Certified professor in the UNIBE Educational Model.',
         job1: 'Certified for the application of teaching methods and techniques such as: collaborative learning, problem-based learning, case analysis, virtual classroom, rubric evaluation and essay evaluation.',
