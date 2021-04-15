@@ -33,9 +33,9 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         cargo: 'Programming Analyst',
         descripcion: 'Successfully developed information systems in Dynamics CRM 365 that:',
         job1: 'Calculate the amount to be paid for delays incurred by the use of containers, chassis, gensets and other charges.',
-        job2: 'Generate invoices, credit notes, payment receipts and refund checks',
-        job3: 'Streamline daily closing and restart processes',
-        job4: 'Generate automatic notifications and customer account statements',
+        job2: 'Generate invoices, credit notes, payment receipts and refund checks.',
+        job3: 'Streamline daily closing and restart processes.',
+        job4: 'Generate automatic notifications and customer account statements.',
       }
     , tkl:{
         nombre: 'TekNowLogic',
@@ -63,8 +63,8 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         descripcion: 'Responsible for the management and operation of the technology department.',
         job1: 'Responsible for preparing, proposing and updating the Strategic Technology Plan.',
         job2: 'Responsible for the IT Budget, Performance Indicators (KPI), Contingency and Technology Continuity Plans, and the IT staff Training plan.',
-        job3: 'Responsible for the implementation of the management systems of operations, administration, finance and customer services for the company',
-        job4: 'Managed technological infrastructure update projects',
+        job3: 'Responsible for the implementation of the management systems of operations, administration, finance and customer services for the company.',
+        job4: 'Managed technological infrastructure update projects.',
      }
 }
  $('.resume-title1').html(datos.dph.nombre);
