@@ -11,8 +11,8 @@ $(document).ready(function () {
   $('#sk06').html('Visual Basic');
 
 /* Languages */
-$('#lang1').html('English - Fluent');
-$('#lang2').html('Spanish - Native');
+$('#lang1').html('English-Fluent');
+$('#lang2').html('Spanish-Native');
 
 /* About */
  $('#about1').html('I am a self motivated, enthusiastic, flexible and responsible team player who will work hard and excel in any environment.');
@@ -40,7 +40,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
     , tkl:{
         nombre: 'TekNowLogic',
         periodo: '2013 - 2019',
-        cargo: 'Tecnology Consultant',
+        cargo: 'Technology Consultant',
         descripcion: 'Responsible for the development of applications, integration, consulting and training.',
         job1: 'Developed software for the Dominican national water company, INAPA. This software simplified updating the company’s database of customers, properties and collection rates. It also allowed for the automatic generation of invoices for every province in the country.',
         job2: 'Developed and implemented multiple customer service modules for the company, Grupo Rica.',
