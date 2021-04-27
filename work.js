@@ -11,8 +11,8 @@ $(document).ready(function () {
   $('#sk06').html('Visual Basic');
 
 /* Languages */
-$('#lang1').html('English-Fluent');
-$('#lang2').html('Spanish-Native');
+$('#lang1').html('English - Fluent');
+$('#lang2').html('Spanish - Native');
 
 /* About */
  $('#about1').html('I am a self motivated, enthusiastic, flexible and responsible team player who will work hard and excel in any environment.');
