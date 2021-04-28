@@ -11,8 +11,8 @@ $(document).ready(function () {
   $('#sk06').html('Visual Basic');
 
 /* Languages */
-$('#lang1').html('Ingles - Fluent');
-$('#lang2').html('Español - Native');
+$('#lang1').html('English - Fluent');
+$('#lang2').html('Spanish - Native');
 
 /* About */
  $('#about1').html('I am a self motivated, enthusiastic, flexible and responsible team player who will work hard and excel in any environment.');
@@ -33,14 +33,14 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         cargo: 'Programming Analyst',
         descripcion: 'Successfully developed information systems in Dynamics CRM 365 that:',
         job1: 'Calculate the amount to be paid for delays incurred by the use of containers, chassis, gensets and other charges.',
-        job2: 'Generate invoices, credit notes, payment receipts and refund checks',
-        job3: 'Streamline daily closing and restart processes',
-        job4: 'Generate automatic notifications and customer account statements',
+        job2: 'Generate invoices, credit notes, payment receipts and refund checks.',
+        job3: 'Streamline daily closing and restart processes.',
+        job4: 'Generate automatic notifications and customer account statements.',
       }
     , tkl:{
         nombre: 'TekNowLogic',
         periodo: '2013 - 2019',
-        cargo: 'Tecnology Consultant',
+        cargo: 'Technology Consultant',
         descripcion: 'Responsible for the development of applications, integration, consulting and training.',
         job1: 'Developed software for the Dominican national water company, INAPA. This software simplified updating the company’s database of customers, properties and collection rates. It also allowed for the automatic generation of invoices for every province in the country.',
         job2: 'Developed and implemented multiple customer service modules for the company, Grupo Rica.',
@@ -49,7 +49,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
        }
     , unibe:{
         nombre: 'University Iberoamericana (UNIBE)',
-        periodo: '2013 - Present:',
+        periodo: '2013 - Present',
         cargo: 'Professor',
         descripcion: 'Certified professor in the UNIBE Educational Model.',
         job1: 'Certified for the application of teaching methods and techniques such as: collaborative learning, problem-based learning, case analysis, virtual classroom, rubric evaluation and essay evaluation.',
@@ -63,8 +63,8 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         descripcion: 'Responsible for the management and operation of the technology department.',
         job1: 'Responsible for preparing, proposing and updating the Strategic Technology Plan.',
         job2: 'Responsible for the IT Budget, Performance Indicators (KPI), Contingency and Technology Continuity Plans, and the IT staff Training plan.',
-        job3: 'Responsible for the implementation of the management systems of operations, administration, finance and customer services for the company',
-        job4: 'Managed technological infrastructure update projects',
+        job3: 'Responsible for the implementation of the management systems of operations, administration, finance and customer services for the company.',
+        job4: 'Managed technological infrastructure update projects.',
      }
 }
  $('.resume-title1').html(datos.dph.nombre);
