@@ -10,6 +10,27 @@ jQuery(document).ready(function($) {
     f.children('input').each(function() { // run all inputs
 
       var i = $(this); // current input
+
+      var dato = i.attr('name');
+
+      switch(dato){
+        case 'name':
+          var nombre=i.val();
+          break;
+ 
+          case 'email':
+          var correo=i.val();
+          break;
+ 
+          case 'subject':
+          var titulo=i.val();
+          break;
+ 
+          case 'message':
+          var mensaje=i.val();
+          break;
+      }
+ 
       var rule = i.attr('data-rule');
 
       if (rule !== undefined) {
@@ -92,7 +113,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      envio(nombre,correo,titulo,mensaje);
     }
     $.ajax({
       type: "POST",
