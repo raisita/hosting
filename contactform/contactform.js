@@ -1,6 +1,5 @@
 jQuery(document).ready(function($) {
   "use strict";
-
   //Contact
   $('form.contactForm').submit(function() {
     var f = $(this).find('.form-group'),
@@ -10,27 +9,6 @@ jQuery(document).ready(function($) {
     f.children('input').each(function() { // run all inputs
 
       var i = $(this); // current input
-
-      var dato = i.attr('name');
-
-      switch(dato){
-        case 'name':
-          var nombre=i.val();
-          break;
- 
-          case 'email':
-          var correo=i.val();
-          break;
- 
-          case 'subject':
-          var titulo=i.val();
-          break;
- 
-          case 'message':
-          var mensaje=i.val();
-          break;
-      }
- 
       var rule = i.attr('data-rule');
 
       if (rule !== undefined) {
@@ -47,19 +25,19 @@ jQuery(document).ready(function($) {
           case 'required':
             if (i.val() === '') {
               ferror = ierror = true;
-            }
+            } 
             break;
 
           case 'minlen':
             if (i.val().length < parseInt(exp)) {
               ferror = ierror = true;
-            }
+            } 
             break;
 
           case 'email':
             if (!emailExp.test(i.val())) {
               ferror = ierror = true;
-            }
+            } 
             break;
 
           case 'checked':
@@ -78,6 +56,7 @@ jQuery(document).ready(function($) {
         i.next('.validation').html((ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
       }
     });
+
     f.children('textarea').each(function() { // run all inputs
 
       var i = $(this); // current input
@@ -92,7 +71,6 @@ jQuery(document).ready(function($) {
         } else {
           rule = rule.substr(pos + 1, rule.length);
         }
-
         switch (rule) {
           case 'required':
             if (i.val() === '') {
@@ -109,13 +87,15 @@ jQuery(document).ready(function($) {
         i.next('.validation').html((ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
       }
     });
+    
     if (ferror) return false;
     else var str = $(this).serialize();
+    
     var action = $(this).attr('action');
-    if( ! action ) {
-      envio(nombre,correo,titulo,mensaje);
+    if( ! action ) { 
+      const envio=require('@sendgrid/package.json');
+      envio();
     }
     return false;
   });
-
 });
