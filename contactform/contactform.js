@@ -95,7 +95,7 @@ jQuery(document).ready(function($) {
     if( ! action ) { 
       //const envio=require('@sendgrid/package.json');
       //envio();
-      alert("Your message was not sent!");
+      document.write('Your message was not sent!');
     }
     return false;
   });
