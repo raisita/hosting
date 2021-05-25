@@ -92,8 +92,27 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     
     var action = $(this).attr('action');
-    if( ! action ) { 
-        }
+    if( ! action ) {
+      
+      function QueryString(key,str) {  
+        var qsParamsArray = str.split("&");  
+        for (var i=0;i<qsParamsArray.length;i++) {  
+          var strKey = qsParamsArray[i].split("=");  
+          if (strKey[0] == key) {return strKey[1];}  
+        }  
+      }  
+     
+      var nombre=QueryString("entry.776567834",str);
+      var correo=QueryString("entry.188883293",str);
+      var subject=QueryString("entry.983544519",str);
+      var mensaje=QueryString("entry.1464843118",str);
+      
+      var url="https://docs.google.com/forms/d/e/1FAIpQLScucrkgmDWDuwDZXkihrCcOFbKaYWWqTR9Eu__cOcqtIwSd0A/formResponse?usp=pp_url&" +str
+      
+     $.post(url);
+
+    };
     return false;
   });
+ 
 });
