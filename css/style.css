@@ -141,7 +141,7 @@ a:hover {
 }
 
 .title-a {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .line-mf {
-  width: 40px;
+  width: 500px;
   height: 5px;
   background-color: #0078ff;
   margin: 0 auto;
