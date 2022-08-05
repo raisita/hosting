@@ -6,9 +6,8 @@ $(document).ready(function () {
   $('#sk01').html('Programming, Management');
   $('#sk02').html('Microsoft Dynamics 365');
   $('#sk03').html('Web Technologies HTML5, CSS, JavaScript, Ajax, jQuery, JSON, DOM');
-  $('#sk04').html('JavaScript Frameworks Node.js');
-  $('#sk05').html('SQL');
-  $('#sk06').html('Reporting Services (SSRS)');
+  $('#sk04').html('SQL');
+  $('#sk05').html('Reporting Services (SSRS)');
   $('#sk06').html('C#, C++, Visual Basic');
 
 /* Languages */
