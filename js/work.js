@@ -2,12 +2,17 @@ $(document).ready(function () {
 
    $('.intro-title').html('Hi, I&#39m Raisa Hidalgo');
 
+   /* Summary */
+   $('#sum01').html('Senior IT Developer proficient in Microsoft Dynamics CRM application customization seeking opportunities to expand and apply management and organizational skills.')
+   $('#sum02').html('I am a self-motivated, enthusiastic, flexible and responsible team player who will work hard and excel in any environment. I form good relationships with my peers and staff and I am confident in dealing with individuals at all levels. My experience has taught me how to find the most effective ways to achieve any objective.')
+
 /* skills */
   $('#sk01').html('Programming, Management');
   $('#sk02').html('Microsoft Dynamics 365');
   $('#sk03').html('Web Technologies HTML5, CSS, JavaScript, Ajax, jQuery, JSON, DOM');
-  $('#sk04').html('SQL');
-  $('#sk05').html('Reporting Services (SSRS)');
+  $('#sk04').html('JavaScript Frameworks Node.js');
+  $('#sk05').html('SQL');
+  $('#sk06').html('Reporting Services (SSRS)');
   $('#sk06').html('C#, C++, Visual Basic');
 
 /* Languages */
@@ -15,9 +20,14 @@ $('#lang1').html('English - Fluent');
 $('#lang2').html('Spanish - Native');
 
 /* About */
- $('#about1').html('Senior IT Developer proficient in Microsoft Dynamics CRM application customization seeking opportunities to expand and apply management and organizational skills.');
- $('#about2').html('I am a self-motivated, enthusiastic, flexible and responsible team player who will work hard and excel in any environment. I form good relationships with my peers and staff and I am confident in dealing with individuals at all levels. My experience has taught me how to find the most effective ways to achieve any objective.');
- 
+ $('#about1').html('8 years of experience in developing business solutions using Microsoft Dynamics CRM on premise, SQL Server and Reporting Services.');
+ $('#about2').html('Implemented Microsoft Dynamic CRM Solutions, developed and maintained a platform roadmap, assisted with deployment and provisioning activities, integrated new systems and services into the CRM on premise architecture. Collaborated closely with business analysts to gather and define feature requirements and project planning.');
+ $('#about3').html('Achieved a solid grasp of installing and deploying CRM organizations, proficient with development, deployment, and integration of Microsoft Dynamics CRM Solutions.');
+ $('#about4').html('Experienced with building Entities, Views, Forms, Business Rules, Business Workflows, JavaScript Web Resources, Ribbon Workbench, Charts, Extensions, Data Maps and Imports, Configuration, Customization.');
+ $('#about5').html('Used jQuery & JavaScript for client-side validations and access data within the CRM application.');
+ $('#about6').html('Modified the Sitemap file to display all the related entities in navigation bar for new app extensions.');
+ $('#about7').html('Created and customized reports in the system by using SQL Server Reporting Services (SSRS) and deployed them into the CRM Solutions');
+
 /* Education */
 $('#edu1').html('Master in Management of Science, Technology, Innovation and Scientific Policy - 2016');
 $('#edu2').html('Master in Senior Management (MBA) - 2011');
@@ -32,7 +42,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         periodo: '2019 - Present',
         cargo: 'Programmer Analyst',
         descripcion1: 'Designed, developed, built, tested, and deployed Microsoft Dynamics 365 CRM system enhancements that include complex formula fields, field dependencies, validation rules, workflow rules and actions, approval processes, reporting, dashboards, system upgrades and SQL custom scripts.',
-        descripcion2: 'Participated in all phases of the software development lifecycle, focused on discovery, analysis, requirements definition, solution design, configuration, code, development providing required assistance for testing, deployment, and support.'
+        descripcion2: 'Participated in all phases of the software development lifecycle, focused on discovery, analysis, requirements definition, solution design, configuration, code development, providing required assistance for testing, deployment, and support.'
     }
     , tkl:{
         nombre: 'TekNowLogic',
