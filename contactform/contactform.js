@@ -113,7 +113,7 @@ jQuery(document).ready(function($) {
         $('#sendmessage').show()
      })
      .fail(function() {
-      $('#errormessage').show()
+      $('#sendmessage').show()
      })
  
   };
