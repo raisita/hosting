@@ -37,7 +37,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
 
    var datos={
      dph:{
-        nombre: 'Despachos Portuarios Hispaniola',
+        nombre: 'Despachos Portuarios Hispaniola / Hispaniola Port Dispatch',
         periodo: '2019 - Present',
         cargo: 'Programmer Analyst',
         descripcion1: 'Designed, developed, built, tested, and deployed Microsoft Dynamics 365 CRM system enhancements that include complex formula fields, field dependencies, validation rules, workflow rules and actions, approval processes, reporting, dashboards, system upgrades and SQL custom scripts.',
@@ -55,7 +55,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         nombre: 'University Iberoamericana (UNIBE)',
         periodo: '2013 - Present',
         cargo: 'Professor',
-        descripcion1: 'Professor of several subjects corresponding to the curricula of the schools of Engineering in Information Technology and Communication and the schools of Administration, Marketing, and Civil Engineering. ',
+        descripcion1: 'Professor in the school of Engineering in Information Technology and Communication.',
         descripcion2: 'Certified in various teaching methods and techniques such as: collaborative learning, problem-based learning, case analysis, virtual classroom, rubric evaluation and essay evaluation.',
         descripcion3: 'Participated as speaker at the Innovative Classes Conferences and several university activities for cultural and educational purposes.'
       }
