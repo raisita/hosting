@@ -20,12 +20,10 @@ $('#lang2').html('Spanish - Native');
 
 /* About */
  $('#about1').html('8 years of experience in developing business solutions using Microsoft Dynamics CRM on premise, SQL Server and Reporting Services.');
- $('#about2').html('Implemented Microsoft Dynamic CRM Solutions, developed and maintained a platform roadmap, assisted with deployment and provisioning activities, integrated new systems and services into the CRM on premise architecture. Collaborated closely with business analysts to gather and define feature requirements and project planning.');
- $('#about3').html('Achieved a solid grasp of installing and deploying CRM organizations, proficient with development, deployment, and integration of Microsoft Dynamics CRM Solutions.');
+ $('#about2').html('Installed, developed, implemented and integrated new systems and services into the local CRM architecture.');
+ $('#about3').html('Assisted with deployment and provisioning activities as well as gather and define feature requirements and project planning.');
  $('#about4').html('Experienced with building Entities, Views, Forms, Business Rules, Business Workflows, JavaScript Web Resources, Ribbon Workbench, Charts, Extensions, Data Maps and Imports, Configuration, Customization.');
- $('#about5').html('Used jQuery & JavaScript for client-side validations and access data within the CRM application.');
- $('#about6').html('Modified the Sitemap file to display all the related entities in navigation bar for new app extensions.');
- $('#about7').html('Created and customized reports in the system by using SQL Server Reporting Services (SSRS) and deployed them into the CRM Solutions');
+ $('#about5').html('Maintained a platform roadmap, modified the sitemap file to display all the related entities in navigation bar for new app extensions and used jQuery & JavaScript for client-side validations and access data within the CRM application.');
 
 /* Education */
 $('#edu1').html('Master in Management of Science, Technology, Innovation and Scientific Policy - 2016');
