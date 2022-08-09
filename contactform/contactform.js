@@ -108,11 +108,16 @@ jQuery(document).ready(function($) {
       var mensaje=QueryString("entry.1464843118",str);
       
       var url="https://docs.google.com/forms/d/e/1FAIpQLScucrkgmDWDuwDZXkihrCcOFbKaYWWqTR9Eu__cOcqtIwSd0A/formResponse?usp=pp_url&" +str
-      
-     $.post(url);
-
-    };
+     
+     var envio=$.post(url,function(){  
+        $('#sendmessage').show()
+     })
+     .fail(function() {
+      $('#errormessage').show()
+     })
+ 
+  };
     return false;
   });
- 
+  
 });
