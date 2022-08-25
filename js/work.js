@@ -38,7 +38,7 @@ $('#edu3').html('Bachelors Degree in Computer Sciences Information System - 1989
         nombre: 'Despachos Portuarios Hispaniola / Hispaniola Port Dispatch',
         periodo: '2019 - Present',
         cargo: 'Programmer Analyst',
-        descripcion1: 'Designed, developed, built, tested, and deployed Microsoft Dynamics 365 CRM system enhancements that include complex formula fields, field dependencies, validation rules, workflow rules and actions, approval processes, reporting, dashboards, system upgrades and SQL custom scripts.',
+        descripcion1: 'Designed, developed, built, tested, and deployed Microsoft Dynamics 365 CRM system enhancements that include formula fields, field dependencies, validation rules, workflow rules and actions, approval processes, reporting, dashboards, system upgrades and SQL custom scripts.',
         descripcion2: 'Participated in all phases of the software development lifecycle, focused on discovery, analysis, requirements definition, solution design, configuration, code development, providing required assistance for testing, deployment, and support.'
     }
     , tkl:{
